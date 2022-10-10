@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <script src="./main2.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Decodificando</h1>
+    </header>
+
+    
+    <main class="main">
+        <section class="parte1">   
+                <label for="escolhaMetodo" id="txt">Escolha o Método</label>
+                    <br>
+    <form action="#">
+        <label id="selecione" for="select"></label>
+        <select name="select" class="select" id="select">
+            <option value="selecione" disabled selected>Selecione</option>
+            <option value="base64">Base64</option>
+            <option value="cifra">Cifra de césar</option>
+        </select>
+    </section>   
+    <section> 
+    </div>
+    <textarea name="mensagem" id="mensagem" cols="38" rows="6"
+    placeholder="Digite sua mensagem..."></textarea>
+    <textarea id="resultado" class="mensagem resultado" cols="38" rows="6" readonly
+    placeholder="Mensagem Criptografada"></textarea>
+    </section>
+
+    <section class="radio-button">
+        <div class="radio">
+            <input type="radio" name="codificar" id="codificar" value="codificar" checked />
+            <label for="codificar">.codificar</label>
+        </div>
+        
+        <div class="radio">
+            <input type="radio" name="codificar" id="decodificar" value="decodificar" />
+            <label for="decodificar">.decodificar</label>
+        </div>
+    </section>
+    <section>
+        <div class="chave-container">
+            <label class="chave" for="range">Escolha a Chave</label>
+            <div class="slider-range">
+               <label>Insira o número da<br> posição</label>
+                <input type="number" value="1" id="rangenumber" min="1" max="26" oninput="range.value=value" />
+            </div>
+        </section>
+    </div>
+    <div class="btt">
+    
+       
+        <button id="btt">Codificar Mensagem!</button>
+    </div>    
+    </form>
+    </main>
+
+    
+</body>
+<footer>
+    <p>Vanessa dos Santos lopes</p>
+
+</footer>
+
+</html>
